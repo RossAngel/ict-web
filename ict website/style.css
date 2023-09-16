@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image : url("boooook.jfif");
+    background-size: cover;
+}
+header{
+    background-color: black;  height: 65px;
+}
+.navigation{
+    float: right;
+    margin-top: 28px;
+    margin-left: 45px;
+    margin-bottom: 3px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navigation a:hover{
+    background-color: rgb(43, 46, 46);
+    color: rgb(192, 188, 188);
+}
+#logo{
+    margin-left: 50px;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+/*aside styling start*/
+.side{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:  100px;
+    /*border: 2px solid red;*/
+    float: left;
+}
+.side li{
+    padding: 2px;
+    list-style: square;
+}
+/*aside styling end*/
+
+/*loginstyling start*/
+.my_login{
+    border: 1px solid red;
+    float: right;
+    margin-right:80px;margin-top: 100px;background-color: beige;
+    height: 15em;
+    padding: 2em;
+}
+#login{
+    background-color: blue;
+    width: 100%;
+    border: none;
+    color: white;
+    height: 1.5em;
+}
+.my_login h1{
+   text-align: center;
+}
+/*login styling end*/
+/*course box starts here*/
+.courses{
+    margin-top: 450px;
+    margin-left: 60px;
+   
+
+}
+    
+.p_box{
+
+    background-color: white;
+    border: 3px solid white;
+    float: left;
+    width: 22%;
+    margin-left: 5px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 13em;
+}
+.p_box h5{
+    text-align: center;
+}
+
+#one{
+    background-color: beige;
+    color: chocolate;
+}
+#two{
+    background-color: rgb(226, 226, 202);
+    color: rgb(165, 82, 22);
+}
+#three{
+    background-color: rgb(179, 179, 159);
+    color: rgb(119, 61, 20);
+}
+#four{
+    background-color: rgb(141, 141, 116);
+    color: rgb(95, 48, 14);
+}
+/*course box ends here*/
